@@ -1,0 +1,19 @@
+{
+    "name": "backend-model",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@tensorflow/tfjs-node": "^4.22.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "sharp": "^0.34.2"
+    }
+}
