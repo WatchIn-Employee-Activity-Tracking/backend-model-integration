@@ -1,5 +1,4 @@
 const tf = require('@tensorflow/tfjs-node');
-const path = require('path');
 
 let model;
 
