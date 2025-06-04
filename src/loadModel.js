@@ -6,8 +6,7 @@ let model;
 async function loadModel() {
     if (!model) {
     try {
-        const modelPath = 'https://storage.googleapis.com/watchin-model-tfjs/model.json';
-        model = await tf.loadGraphModel(`${modelPath}`);
+        model = await tf.loadGraphModel(`${process.env.MODEL_PATH}`);
         console.log('Model loaded successfully!');
     } catch (error) {
         console.error('Failed to load model:', error);
